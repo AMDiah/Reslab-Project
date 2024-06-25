@@ -60,5 +60,14 @@ class AppController extends Controller
     {
         return view('/rl');
     }
+
+    public function par()
+    {
+        return view('/par');
+    }
+    public function sister()
+    {
+        return view('/sister');
+    }
     
 }

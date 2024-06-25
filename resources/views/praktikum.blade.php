@@ -88,24 +88,27 @@
             <!-- Group 181 -->
             <section class="pos-abs group-18-57483" id="id-57483">
                 <div class="pos-abs rectangle-181-120435" id="id-120435"></div>
-                <div class="pos-abs rl-11-55451" id="id-55451">
-                    <div class="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-55451" id="id-bg-55451"
-                        alt="rl 11 Image"></div>
-                </div>
-                <div class="pos-abs rectangle-27-57484" id="id-57484"></div>
-                <div class="pos-abs rangkaian-listr-56452" id="id-56452">
-                    <span class="rangkaian-listr-56452-0">RANGKAIAN LISTRIK</span>
-                </div>
-                <div class="pos-abs par-57486" id="id-57486">
-                    <span class="par-57486-0">PAR</span>
-                </div>
-                <div class="pos-abs praktikum-penga-57487" id="id-57487">
-                    <span class="praktikum-penga-57487-0">Praktikum Pengantar Analisis Rangkaian (PAR) bertujuan untuk
-                        Memperkenalkan konsep dasar rangkaian listrik dan komponen
-                        elektronik.<br />Meningkatkan kemampuan mahasiswa dalam
-                        menganalisis dan memecahkan masalah terkait rangkaian
-                        listrik.</span>
-                </div>
+                <a href="{{ route('par') }}">
+                    <div class="pos-abs rl-11-55451" id="id-55451">
+                        <div class="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-55451" id="id-bg-55451"
+                            alt="rl 11 Image"></div>
+                    </div>
+                    <div class="pos-abs rectangle-27-57484" id="id-57484"></div>
+                    <div class="pos-abs rangkaian-listr-56452" id="id-56452">
+                        <span class="rangkaian-listr-56452-0">RANGKAIAN LISTRIK</span>
+                    </div>
+                    <div class="pos-abs par-57486" id="id-57486">
+                        <span class="par-57486-0">PAR</span>
+                    </div>
+                    <div class="pos-abs praktikum-penga-57487" id="id-57487">
+                        <span class="praktikum-penga-57487-0">Praktikum Pengantar Analisis Rangkaian (PAR) bertujuan
+                            untuk
+                            Memperkenalkan konsep dasar rangkaian listrik dan komponen
+                            elektronik.<br />Meningkatkan kemampuan mahasiswa dalam
+                            menganalisis dan memecahkan masalah terkait rangkaian
+                            listrik.</span>
+                    </div>
+                </a>
             </section>
 
 
@@ -144,26 +147,27 @@
             <!-- Group 201 -->
             <section class="pos-abs group-20-57511" id="id-57511">
                 <div class="pos-abs rectangle-181-120407" id="id-120407"></div>
-                <div class="pos-abs rectangle-171-120408" id="id-120408">
-                    <div class="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-120408" id="id-bg-120408"
-                        alt="Rectangle 171 Image"></div>
-                </div>
-                <div class="pos-abs rectangle-27-57512" id="id-57512"></div>
-                <div class="pos-abs sister-1-57509" id="id-57509">
-                    <div class="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-57509" id="id-bg-57509"
-                        alt="sister 11 Image"></div>
-                </div>
-                <div class="pos-abs sistem-tertanam-57514" id="id-57514">
-                    <span class="sistem-tertanam-57514-0">SISTEM TERTANAM</span>
-                </div>
-                <div class="pos-abs praktikum-siste-57515" id="id-57515">
-                    <span class="praktikum-siste-57515-0">Praktikum Sistem Tertanam adalah sesi pelatihan yang
-                        dirancang
-                        untuk memberikan mahasiswa pemahaman dan pengalaman langsung dalam
-                        merancang, mengembangkan, dan mengimplementasikan sistem
-                        tertanam.</span>
-                </div>
-
+                <a href="{{ route('sister') }}">
+                    <div class="pos-abs rectangle-171-120408" id="id-120408">
+                        <div class="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-120408"
+                            id="id-bg-120408" alt="Rectangle 171 Image"></div>
+                    </div>
+                    <div class="pos-abs rectangle-27-57512" id="id-57512"></div>
+                    <div class="pos-abs sister-1-57509" id="id-57509">
+                        <div class="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-57509" id="id-bg-57509"
+                            alt="sister 11 Image"></div>
+                    </div>
+                    <div class="pos-abs sistem-tertanam-57514" id="id-57514">
+                        <span class="sistem-tertanam-57514-0">SISTEM TERTANAM</span>
+                    </div>
+                    <div class="pos-abs praktikum-siste-57515" id="id-57515">
+                        <span class="praktikum-siste-57515-0">Praktikum Sistem Tertanam adalah sesi pelatihan yang
+                            dirancang
+                            untuk memberikan mahasiswa pemahaman dan pengalaman langsung dalam
+                            merancang, mengembangkan, dan mengimplementasikan sistem
+                            tertanam.</span>
+                    </div>
+                </a>
             </section>
 
 
