@@ -70,4 +70,19 @@ class AppController extends Controller
         return view('/sister');
     }
     
+    public function formnonta2()
+    {
+        return view('/formnonta2');
+    }
+    public function dashboard()
+    {
+        return view('admin/dashboard');
+    }
+    public function login()
+    {   
+        
+        return view('admin/login');
+    }
+    
+    
 }

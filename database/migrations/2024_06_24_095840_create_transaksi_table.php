@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('transaksi', function (Blueprint $table) {
             $table->increments('id_tansaksi');
+            
+            
             $table->foreignId('user_id')->constrained(
                 table: 'peminjam', indexName: 'add_foreign_key_user', column:'id_user'
             );
@@ -21,7 +23,7 @@ return new class extends Migration
                 table: 'alat', indexName: 'add_foreign_key_alat', column:'id_alat');
             $table->timestamp('tanggal_pinjam')->nullable();
             $table->timestamp('tanggal_kembali')->nullable();
-
+            $table->string('status')->default('pending');
         });
     }
 

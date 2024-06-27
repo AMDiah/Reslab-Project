@@ -15,7 +15,12 @@ return new class extends Migration
             $table->id('id_alat');
             $table->string('nama_alat');
             $table->string('jenis');
+            $table->string('qnty');
+
+           
+            
         });
+
     }
 
     /**
