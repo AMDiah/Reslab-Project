@@ -13,11 +13,13 @@ Route::get('/', function () {
    
     Route::get('/admin/login', [AdminController::class, 'login'])->name('login');
     Route::post('/admin/login', [AdminController::class, 'loginPost'])->name('login');
-    Route::post('/admin/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
+    Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
+    Route::get('/admin/peminjaman', [AdminController::class, 'peminjamanAdmin'])->name('peminjamanAdmin');
+
   
     
-Route::get('/admin/dashboard', [AppController::class, 'dashboard'])->name('dashboard');
-Route::get('/admin/login', [AppController::class, 'login'])->name('login');
+// Route::get('/admin/dashboard', [AppController::class, 'dashboard'])->name('dashboard');
+// Route::get('/admin/login', [AppController::class, 'login'])->name('login');
 
 //route navbar
 
@@ -44,3 +46,8 @@ Route::get('/sistemtertanam', [AppController::class, 'sister'])->name('sister');
 
 Route::get('/formnonta2', [AppController::class, 'formnonta2'])->name('formnonta2');
 
+//transaksi
+Route::get('/admin/transaksi', [AppController::class, 'index'])->name('transaksi.index');
+Route::post('/admin/transaksi/{id}/approve', [AppController::class, 'approve'])->name('transaksi.approve');
+Route::post('/admin/transaksi/{id}/reject', [AppController::class, 'reject'])->name('transaksi.reject');
+Route::post('/admin/transaksi/{id}/process', [AppController::class, 'process'])->name('transaksi.process');

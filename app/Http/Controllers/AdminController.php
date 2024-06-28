@@ -19,6 +19,10 @@ class AdminController extends Controller
     {
         return view('admin.dashboard');
     }
+    public function peminjamanAdmin()
+    {
+        return view('admin.peminjaman-admin');
+    }
 
     public function loginPost(Request $request)
     {
