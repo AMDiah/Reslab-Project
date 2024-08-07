@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Desktop - 25</title>
+    <title>rangkaian listrik</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href={{ url('./allstyle/rl.css') }} />
 
@@ -43,7 +43,7 @@
             <div class="pos-abs layout-main1-15" id="id-15"></div>
             <div class="pos-abs rectangle-26-1061131" id="id-1061131"></div>
             <!-- assettt1 -->
-            <section class="pos-abs assettt1-1818" id="id-1818">
+            {{-- <section class="pos-abs assettt1-1818" id="id-1818">
                 <div class="pos-abs nnnn-1-1816" id="id-1816">
                     <div class="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-1816" id="id-bg-1816"
                         alt="nnnn 11 Image"></div>
@@ -58,9 +58,9 @@
             <div class="pos-abs robotic-and-emb-64" id="id-64">
                 <span class="robotic-and-emb-64-0">ROBOTIC AND EMBEDDED SYSTEM LABORATORY<br /></span><span
                     class="robotic-and-emb-64-1">TEKNIK KOMPUTER</span>
-            </div>
+            </div> --}}
             <!-- Group 11 -->
-            <section class="pos-abs group-11-114" id="id-114">
+            {{-- <section class="pos-abs group-11-114" id="id-114">
                 <div class="pos-abs profil-110" id="id-110">
                     <span class="profil-110-0">Profil</span>
                 </div>
@@ -73,41 +73,32 @@
                 <div class="pos-abs informasi-113" id="id-113">
                     <span class="informasi-113-0">Informasi</span>
                 </div>
-            </section>
+            </section> --}}
             <!-- Group 171 -->
             <section class="pos-abs group-17-1061132" id="id-1061132">
-                <div class="pos-abs group-291-91128" id="id-91128">
-                    <div class="pos-abs iay2dwwy400x400-70823" id="id-70823">
-                        <div class="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-70823" id="id-bg-70823"
-                            alt="iay2dwWY_400x400 (1) 11 Image"></div>
-                    </div>
-                    <div class="pos-abs robotic-and-emb-70822" id="id-70822">
-                        <span class="robotic-and-emb-70822-0">ROBOTIC AND EMBEDDED SYSTEM LABORATORY<br /></span><span
-                            class="robotic-and-emb-70822-1">TEKNIK KOMPUTER</span>
-                    </div>
-                </div>
                 <div class="pos-abs group-28-1061138" id="id-1061138">
                     <div class="pos-abs iay2dwwy400x400-1061140" id="id-1061140">
                         <div class="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-1061140"
                             id="id-bg-1061140" alt="iay2dwWY_400x400 (1) 11 Image"></div>
                     </div>
                     <div class="pos-abs robotic-and-emb-1061139" id="id-1061139">
-                        <span class="robotic-and-emb-1061139-0">ROBOTIC AND EMBEDDED SYSTEM LABORATORY<br /></span><span
-                            class="robotic-and-emb-1061139-1">TEKNIK KOMPUTER</span>
+                        <a href="{{ route('home') }}" class="robotic-and-emb-1061139-0">ROBOTIC AND EMBEDDED SYSTEM
+                            LABORATORY<br /></a><a href="{{ route('home') }}" class="robotic-and-emb-1061139-1">TEKNIK
+                            KOMPUTER</a>
                     </div>
                 </div>
                 <div class="pos-abs group-1-1061133" id="id-1061133">
                     <div class="pos-abs profil-1061134" id="id-1061134">
-                        <span class="profil-1061134-0">Profil</span>
+                        <a href="{{ route('profil') }}" class="profil-1061134-0">Profil</a>
                     </div>
                     <div class="pos-abs peminjaman-1061136" id="id-1061136">
-                        <span class="peminjaman-1061136-0">Peminjaman</span>
+                        <a href="{{ route('peminjaman') }}" class="peminjaman-1061136-0">Peminjaman</a>
                     </div>
                     <div class="pos-abs praktikum-1061135" id="id-1061135">
-                        <span class="praktikum-1061135-0">Praktikum</span>
+                        <a href="{{ route('praktikum') }}" class="praktikum-1061135-0">Praktikum</a>
                     </div>
                     <div class="pos-abs informasi-1061137" id="id-1061137">
-                        <span class="informasi-1061137-0">Informasi</span>
+                        <a href="{{ route('informasi') }}" class="informasi-1061137-0">Informasi</a>
                     </div>
                 </div>
             </section>

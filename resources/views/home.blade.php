@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Desktop - 1</title>
+    <title>Home</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href={{ url('./allstyle/homepage.css') }} />
     <link rel="stylesheet" href="./animation.css" />
@@ -25,12 +25,22 @@
                     <div class="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-1816" id="id-bg-1816"
                         alt="nnnn 11 Image"></div>
                 </div>
-                <div class="pos-abs ellipse-2-1819" id="id-1819"></div>
-                <div class="pos-abs ellipse-1-1817" id="id-1817"></div>
+
+                <div class="pos-abs ellipse-2-1819" id="id-1819">
+
+                </div>
+                <div class="pos-abs ellipse-1-1817" id="id-1817">
+
+                </div>
+                <div class="pos-abs ellipse-2-1819" id="id-1819">
+                    <img src="imageshome/image0.png" class="pos-abs ellipse-2-1819" id="id-1819">
+                </div>
+
             </section>
+            <div class="row">
+                <img src="images/image0.png" class="pos-abs iay2dwwy400x400-1920 nodeBg-1920">
+            </div>
             <div class="pos-abs iay2dwwy400x400-1920" id="id-1920">
-                <div class="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-1920" id="id-bg-1920"
-                    alt="iay2dwWY_400x400 (1) 11 Image"></div>
             </div>
             {{-- <div class="pos-abs robotic-and-emb-64" id="id-64">
                 <a href="{{ route('home') }} class="robotic-and-emb-64-0">ROBOTIC AND EMBEDDED SYSTEM
@@ -57,32 +67,7 @@
                 </div>
             </section>
             <!-- Group 171 -->
-            <section class="pos-abs group-171-57474" id="id-57474">
-                <div class="pos-abs group-28-91126" id="id-91126">
-                    <div class="pos-abs iay2dwwy400x400-57481" id="id-57481">
-                        <div class="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-57481" id="id-bg-57481"
-                            alt="iay2dwWY_400x400 (1) 11 Image"></div>
-                    </div>
-                    <div class="pos-abs robotic-and-emb-57480" id="id-57480">
-                        <span class="robotic-and-emb-57480-0">ROBOTIC AND EMBEDDED SYSTEM LABORATORY<br /></span><span
-                            class="robotic-and-emb-57480-1">TEKNIK KOMPUTER</span>
-                    </div>
-                </div>
-                <div class="pos-abs group-1-57475" id="id-57475">
-                    <div class="pos-abs profil-57476" id="id-57476">
-                        <span class="profil-57476-0">Profil</span>
-                    </div>
-                    <div class="pos-abs peminjaman-57478" id="id-57478">
-                        <span class="peminjaman-57478-0">Peminjaman</span>
-                    </div>
-                    <div class="pos-abs praktikum-57477" id="id-57477">
-                        <span class="praktikum-57477-0">Praktikum</span>
-                    </div>
-                    <div class="pos-abs informasi-57479" id="id-57479">
-                        <span class="informasi-57479-0">Informasi</span>
-                    </div>
-                </div>
-            </section>
+
             <div class="pos-abs ready-to-suppor-124" id="id-124">
                 <span class="ready-to-suppor-124-0">Ready to<br />Supporting </span><span
                     class="ready-to-suppor-124-1">you<br /></span><span class="ready-to-suppor-124-2">in collage
@@ -284,6 +269,7 @@
                 <div class="pos-abs sister-1-57509" id="id-57509">
                     <div class="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-57509" id="id-bg-57509"
                         alt="sister 11 Image"></div>
+                    <img src="image/image1.png">
                 </div>
                 <div class="pos-abs sistem-tertanam-57514" id="id-57514">
                     <span class="sistem-tertanam-57514-0">SISTEM TERTANAM</span>

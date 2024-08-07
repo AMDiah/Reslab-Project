@@ -164,6 +164,7 @@
     }
 
     .iay2dwwy400x400-1920 {
+
         width: 5.9%;
         height: 2.04%;
         top: 1.03%;
@@ -343,6 +344,7 @@
     }
 
     .iay2dwwy400x400-57481 {
+        border-radius: 20px;
         width: 15.15%;
         height: 94.44%;
         top: 0%;

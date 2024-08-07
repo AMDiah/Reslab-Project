@@ -12,28 +12,30 @@
 </head>
 
 <body>
-
+    @include('navb')
     <div class="desktop-22">
-        <div class="desktop-22-child">
+
+        {{-- <div class="desktop-22-child">
         </div>
         <div class="group-parent">
             <div class="profil-parent">
-                <div class="profil">Profil</div>
-                <div class="praktikum">Praktikum</div>
-                <div class="peminjaman" id="peminjamanText">Peminjaman</div>
-                <div class="informasi">Informasi</div>
+                <a href="{{ route('profil') }}" class="profil">Profil</a>
+                <a href="{{ route('praktikum') }}" class="praktikum">Praktikum</a>
+                <a href="{{ route('peminjaman') }}" class="peminjaman" id="peminjamanText">Peminjaman</a>
+                <a href="{{ route('informasi') }}" class="informasi">Informasi</a>
             </div>
             <div class="robotic-and-embedded-system-la-parent" id="groupContainer1">
                 <div class="robotic-and-embedded-container">
-                    <p class="robotic-and-embedded">ROBOTIC AND EMBEDDED SYSTEM LABORATORY</p>
-                    <p class="teknik-komputer">
-                        <b>TEKNIK KOMPUTER</b>
-                    </p>
+                    <a href="{{ route('home') }}" class="robotic-and-embedded">ROBOTIC AND EMBEDDED SYSTEM
+                        LABORATORY</a>
+                    <a href="{{ route('home') }}" class="teknik-komputer">
+                        <a>TEKNIK KOMPUTER</a>
+                    </a>
                 </div>
                 <img class="iay2dwwy-400x400-1-1" alt="" src="iay2dwWY_400x400 (1) 1.png">
 
             </div>
-        </div>
+        </div> --}}
         <div class="group-container">
             <div class="rectangle-parent">
                 <div class="group-child">

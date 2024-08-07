@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Desktop - 1</title>
+    <title>Profil</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href={{ url('allstyle/style.css') }} />
     <link rel="stylesheet" href={{ url('allstyle/animation.css') }} />

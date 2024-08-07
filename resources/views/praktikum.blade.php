@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Desktop - 6</title>
+    <title>praktikum</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href={{ url('./allstyle/mainprak.css') }} />
     <link rel="stylesheet" href={{ url('./allstyle/animation.css') }} />
@@ -23,7 +23,9 @@
 <body>
 
     <div class="parent-div">
+
         <div class="pos-abs desktop--6-57472" id="id-57472">
+
             <div class="pos-abs layout-main1-15" id="id-15"></div>
             <div class="pos-abs rectangle-26-57473" id="id-57473"></div>
             <!-- Group 171 -->
@@ -31,25 +33,28 @@
                 <div class="pos-abs group-28-91126" id="id-91126">
                     <div class="pos-abs iay2dwwy400x400-57481" id="id-57481">
                         <div class="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-57481" id="id-bg-57481"
-                            alt="iay2dwWY_400x400 (1) 11 Image"></div>
+                            alt=""></div>
+                        <img src="{{ asset('images/image0.png') }}" style="width: 100% " alt="logo">
                     </div>
                     <div class="pos-abs robotic-and-emb-57480" id="id-57480">
-                        <span class="robotic-and-emb-57480-0">ROBOTIC AND EMBEDDED SYSTEM LABORATORY<br /></span><span
-                            class="robotic-and-emb-57480-1">TEKNIK KOMPUTER</span>
+                        <a href="{{ route('home') }}" class="robotic-and-emb-57480-0">ROBOTIC AND EMBEDDED SYSTEM
+                            LABORATORY<br /></a>
+                        <a href="{{ route('home') }}" class="robotic-and-emb-57480-1">TEKNIK KOMPUTER</a>
                     </div>
                 </div>
                 <div class="pos-abs group-1-57475" id="id-57475">
                     <div class="pos-abs profil-57476" id="id-57476">
-                        <span class="profil-57476-0">Profil</span>
+                        <a href="{{ route('profil') }}" class="dropdown profil-57476-0">Profil</a>
+
                     </div>
                     <div class="pos-abs peminjaman-57478" id="id-57478">
-                        <span class="peminjaman-57478-0">Peminjaman</span>
+                        <a href="{{ route('peminjaman') }}"class="profil-57476-0">Peminjaman</a>
                     </div>
                     <div class="pos-abs praktikum-57477" id="id-57477">
-                        <span class="praktikum-57477-0">Praktikum</span>
+                        <a href="{{ route('praktikum') }}" class="praktikum-57477-0">Praktikum</a>
                     </div>
                     <div class="pos-abs informasi-57479" id="id-57479">
-                        <span class="informasi-57479-0">Informasi</span>
+                        <a href="{{ route('informasi') }}" class="profil-57476-0">Informasi</a>
                     </div>
                 </div>
             </section>

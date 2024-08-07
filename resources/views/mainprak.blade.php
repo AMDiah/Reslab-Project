@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Desktop - 6</title>
+    <title>Praktikum</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./allstyle/mainprak.css" />
     <link rel="stylesheet" href="./animation.css" />

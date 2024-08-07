@@ -12,11 +12,12 @@
 </head>
 
 <body>
-
+    @include('navb')
     <div class="desktop-22">
+
         <div class="desktop-22-child">
         </div>
-        <div class="group-parent">
+        {{-- <div class="group-parent">
             <div class="profil-parent">
                 <div class="profil">Profil</div>
                 <div class="praktikum">Praktikum</div>
@@ -33,7 +34,7 @@
                 <img class="iay2dwwy-400x400-1-1" alt="" src="iay2dwWY_400x400 (1) 1.png">
 
             </div>
-        </div>
+        </div> --}}
     </div>
     <div class = "berkelas">
         <div class="group-container">

@@ -1,4 +1,4 @@
-.desktop-22-child {
+.desktop-16-child {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -7,7 +7,6 @@
     height: 169px;
 }
 .profil {
-    text-decoration: none;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -105,11 +104,11 @@
 }
 .group-item {
     position: absolute;
-    top: 52px;
-    left: 882px;
+    top: 53px;
+    left: 775px;
     border-radius: 10px;
     background: linear-gradient(90deg, #ffa243, #fe6601);
-    width: 286px;
+    width: 393px;
     height: 5px;
 }
 .group-container {
@@ -146,7 +145,6 @@
     height: 96px;
     color: #000;
 }
-
 .rectangle-div {
     position: absolute;
     top: 36px;
@@ -174,35 +172,6 @@
 }
 .group-child2 {
     position: absolute;
-    top: 36px;
-    left: 0px;
-    border-radius: 40px;
-    background-color: #fff5eb;
-    width: 1167px;
-    height: 134px;
-}
-.kotak {
-    position: absolute;
-    border: none;
-    border-radius: 40px;
-    background-color: #fff5eb;
-    top: 788px;
-    left: 122px;
-    font-size: 20px;
-    width: 1167px;
-    height: 134px;
-    padding-left: 34px;
-}
-.rectangle-parent1 {
-    position: absolute;
-    top: 752px;
-    left: 121px;
-    width: 1167px;
-    height: 170px;
-    color: #000;
-}
-.group-child3 {
-    position: absolute;
     top: 0px;
     left: 0px;
     border-radius: 40px;
@@ -210,7 +179,7 @@
     width: 307px;
     height: 58px;
 }
-.group-child4 {
+.group-child3 {
     position: absolute;
     top: 0px;
     left: 373px;
@@ -219,7 +188,7 @@
     width: 307px;
     height: 58px;
 }
-.group-child5 {
+.group-child4 {
     position: absolute;
     top: 0px;
     left: 746px;
@@ -228,7 +197,7 @@
     width: 307px;
     height: 58px;
 }
-.rectangle-parent2 {
+.rectangle-parent1 {
     position: absolute;
     top: 36px;
     left: 0px;
@@ -237,13 +206,13 @@
 }
 .group-parent1 {
     position: absolute;
-    top: 952px;
-    left: 126px;
+    top: 752px;
+    left: 123px;
     width: 1053px;
     height: 94px;
     color: #000;
 }
-.group-child6 {
+.group-child5 {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -252,7 +221,7 @@
     width: 1167px;
     height: 376px;
 }
-.group-child7 {
+.group-child6 {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -296,14 +265,21 @@
     width: 1075px;
     height: 94px;
 }
+.group-parent5 {
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    width: 1075px;
+    height: 153px;
+}
 .group-parent4 {
     position: absolute;
     top: 158px;
     left: 36px;
     width: 1075px;
-    height: 94px;
+    height: 189px;
 }
-.group-child13 {
+.group-child12 {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -312,20 +288,6 @@
     width: 195px;
     height: 58px;
 }
-.kotakj {
-    position: absolute;
-    top: 988px;
-    left: 125px;
-    font-size: 20px;
-    background-color: transparent;
-    border: none;
-    color: #9c9090;
-    width: 285px;
-    height: 58px;
-    border-radius: 40px;
-    padding-left: 40px;
-}
-
 .save {
     position: absolute;
     top: 21px;
@@ -333,7 +295,7 @@
     line-height: 16px;
     font-weight: 500;
 }
-.rectangle-parent4 {
+.rectangle-parent3 {
     position: absolute;
     top: 289px;
     left: 916px;
@@ -341,7 +303,7 @@
     height: 58px;
     color: #fff;
 }
-.group-child14 {
+.group-child13 {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -357,7 +319,7 @@
     line-height: 16px;
     font-weight: 500;
 }
-.rectangle-parent5 {
+.rectangle-parent4 {
     position: absolute;
     top: 574px;
     left: 9px;
@@ -366,15 +328,15 @@
     cursor: pointer;
     color: #fff;
 }
-.rectangle-parent3 {
+.rectangle-parent2 {
     position: absolute;
-    top: 1402px;
-    left: 126px;
+    top: 1202px;
+    left: 123px;
     width: 1167px;
     height: 632px;
     color: #000;
 }
-.group-child15 {
+.group-child14 {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -413,18 +375,18 @@
     width: 260px;
     height: 62px;
 }
-.rectangle-parent6 {
+.rectangle-parent5 {
     position: absolute;
-    top: 1810px;
-    left: 126px;
+    top: 1610px;
+    left: 123px;
     width: 750px;
     height: 132px;
     color: #958b8b;
 }
-.desktop-22-item {
+.desktop-16-item {
     position: absolute;
-    top: 1082px;
-    left: 126px;
+    top: 882px;
+    left: 123px;
     border-radius: 40px;
     background-color: #fff5eb;
     width: 1167px;
@@ -449,8 +411,8 @@
 }
 .ellipse-parent {
     position: absolute;
-    top: 1823px;
-    left: 922px;
+    top: 1623px;
+    left: 919px;
     width: 106px;
     height: 106px;
 }
@@ -466,7 +428,7 @@
     left: 401px;
     line-height: 16px;
 }
-.group-child16 {
+.group-child15 {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -519,8 +481,8 @@
 }
 .group-parent6 {
     position: absolute;
-    top: 1154px;
-    left: 162px;
+    top: 954px;
+    left: 159px;
     width: 1055px;
     height: 179px;
     font-size: 32px;
@@ -529,25 +491,25 @@
 }
 .tabel-alat {
     position: absolute;
-    top: 1112px;
-    left: 162px;
+    top: 912px;
+    left: 159px;
     line-height: 16px;
     font-weight: 500;
     color: #958b8b;
 }
-.desktop-22-inner {
+.desktop-16-inner {
     position: absolute;
-    top: 986px;
-    left: 1225px;
+    top: 786px;
+    left: 1222px;
     border-radius: 50%;
     background: linear-gradient(135deg, #fe6601, #ffa243);
     width: 60px;
     height: 60px;
 }
-.desktop-22-child1 {
+.desktop-16-child1 {
     position: absolute;
-    top: 1131px;
-    left: 1274px;
+    top: 954px;
+    left: 1267px;
     border-radius: 20px;
     background-color: #d9d9d9;
     width: 4px;
@@ -563,137 +525,107 @@
 }
 .arrowww-2-icon {
     position: absolute;
-    top: 995px;
-    left: 366px;
+    top: 795px;
+    left: 363px;
     width: 38px;
     height: 45px;
     object-fit: cover;
 }
 .arrowww-5-icon {
     position: absolute;
-    top: 1477px;
-    left: 425px;
+    top: 1277px;
+    left: 422px;
     width: 38px;
     height: 45px;
     object-fit: cover;
 }
 .arrowww-7-icon {
     position: absolute;
-    top: 1477px;
-    left: 807px;
+    top: 1277px;
+    left: 804px;
     width: 38px;
     height: 45px;
     object-fit: cover;
 }
 .arrowww-9-icon {
     position: absolute;
-    top: 1477px;
-    left: 1189px;
+    top: 1277px;
+    left: 1186px;
     width: 38px;
     height: 45px;
     object-fit: cover;
 }
 .arrowww-10-icon {
     position: absolute;
-    top: 1602px;
-    left: 1189px;
+    top: 1402px;
+    left: 1186px;
     width: 38px;
     height: 45px;
     object-fit: cover;
 }
 .arrowww-8-icon {
     position: absolute;
-    top: 1602px;
-    left: 807px;
+    top: 1402px;
+    left: 804px;
     width: 38px;
     height: 45px;
     object-fit: cover;
 }
 .arrowww-6-icon {
     position: absolute;
-    top: 1602px;
-    left: 425px;
+    top: 1402px;
+    left: 422px;
     width: 38px;
     height: 45px;
     object-fit: cover;
 }
 .arrowww-3-icon {
     position: absolute;
-    top: 997px;
-    left: 742px;
+    top: 797px;
+    left: 739px;
     width: 38px;
     height: 45px;
     object-fit: cover;
 }
 .arrowww-4-icon {
     position: absolute;
-    top: 997px;
-    left: 1128px;
+    top: 797px;
+    left: 1125px;
     width: 38px;
     height: 45px;
     object-fit: cover;
 }
 .tambah-1-icon {
     position: absolute;
-    top: 997px;
-    left: 1234px;
+    top: 797px;
+    left: 1231px;
     width: 42px;
     height: 39px;
     object-fit: cover;
 }
 .enter-full-name {
     position: absolute;
-    top: 417px;
-    left: 125px;
+    top: 433px;
+    left: 165px;
     font-size: 20px;
-    background-color: transparent;
-    border: none;
-    width: 1130px;
-    padding-left: 36px;
-    border-radius: 40px;
-    height: 58px;
 }
-
 .cari-angkatan {
     position: absolute;
-    top: 540px;
-    left: 119px;
+    top: 557px;
+    left: 159px;
     font-size: 20px;
-    background-color: transparent;
-    border: none;
-    width: 1137px;
-    padding-left: 36px;
-    border-radius: 40px;
-    height: 58px;
 }
 .enter-phone-number {
     position: absolute;
-    border-radius: 40px;
-    top: 661px;
-    left: 125px;
-    font-size: 20px;
-    background-color: transparent;
-    border: none;
-    width: 1140px;
-    height: 58px;
-    padding-left: 27px;
-}
-.masukkan-alasan-peminjaman {
-    position: absolute;
-    top: 805px;
+    top: 681px;
     left: 159px;
     font-size: 20px;
-    background-color: transparent;
-    border: none;
 }
-.jenis {
+.jenis-alat {
     position: absolute;
-    top: 1005px;
-    left: 151px;
+    top: 805px;
+    left: 148px;
     font-size: 20px;
-    background-color: #fff5eb;
-    border: none;
-    color: #9c9090;
 }
 .bulan {
     position: absolute;
@@ -707,51 +639,37 @@
 }
 .tanggal-parent {
     position: absolute;
-    top: 1487px;
-    left: 195px;
+    top: 1287px;
+    left: 192px;
     width: 809px;
     height: 24px;
     font-size: 20px;
 }
 .tanggal-group {
     position: absolute;
-    top: 1613px;
-    left: 197px;
+    top: 1413px;
+    left: 194px;
     width: 809px;
     height: 24px;
     font-size: 20px;
 }
 .nama-alat {
     position: absolute;
-    top: 988px;
-    left: 500px;
+    top: 805px;
+    left: 536px;
     font-size: 20px;
-    border: none;
-    background-color: transparent;
-    color: #9c9090;
-    width: 285px;
-    height: 58px;
-    border-radius: 40px;
-    padding-left: 40px;
 }
 .jumlah {
     position: absolute;
-    padding-left: 40px;
-    top: 988px;
-    left: 870px;
+    top: 805px;
+    left: 902px;
     font-size: 20px;
-    border: none;
-    background-color: transparent;
-    color: #908686;
-    width: 265px;
-    height: 58px;
-    border-radius: 40px;
 }
-.desktop-22 {
+.desktop-16 {
     width: 100%;
     position: relative;
     background-color: #fff;
-    height: 2112px;
+    height: 1887px;
     overflow: hidden;
     text-align: left;
     font-size: 24px;

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, width=device-width">
-    <link rel="stylesheet" href={{ url('allstyle/style.css') }} />
+    <link rel="stylesheet" href={{ url('allstyle/formta.css') }} />
     <link rel="stylesheet" href={{ url('allstyle/animation.css') }} />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google Sans:wght@400;700&display=swap" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" />
@@ -76,14 +76,14 @@
                         </select>
                     </div>
                     <div class="group-child4">
-                        <label class="group-child2" for="quantity">Quantity (between 1 and 5):</label>
+
                         <input type="number" id="quantity" name="quantity" min="1" max="5">
-                        <select class="group-child2" name="jumlah" required>
+                        {{-- <select class="group-child2" name="jumlah" required>
                             <option value="">Pilih Jumlah</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
-                        </select>
+                        </select> --}}
                     </div>
                 </div>
             </div>

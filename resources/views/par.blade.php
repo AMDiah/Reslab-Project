@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Desktop - 25</title>
+    <title>pengantar-analisis-rangkaian</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href={{ url('./allstyle/par.css') }} />
 
@@ -59,55 +59,32 @@
                 <span class="robotic-and-emb-64-0">ROBOTIC AND EMBEDDED SYSTEM LABORATORY<br /></span><span
                     class="robotic-and-emb-64-1">TEKNIK KOMPUTER</span>
             </div>
-            <!-- Group 11 -->
-            <section class="pos-abs group-11-114" id="id-114">
-                <div class="pos-abs profil-110" id="id-110">
-                    <span class="profil-110-0">Profil</span>
-                </div>
-                <div class="pos-abs peminjaman-112" id="id-112">
-                    <span class="peminjaman-112-0">Peminjaman</span>
-                </div>
-                <div class="pos-abs praktikum-111" id="id-111">
-                    <span class="praktikum-111-0">Praktikum</span>
-                </div>
-                <div class="pos-abs informasi-113" id="id-113">
-                    <span class="informasi-113-0">Informasi</span>
-                </div>
-            </section>
+
             <!-- Group 171 -->
             <section class="pos-abs group-17-1061132" id="id-1061132">
-                <div class="pos-abs group-291-91128" id="id-91128">
-                    <div class="pos-abs iay2dwwy400x400-70823" id="id-70823">
-                        <div class="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-70823" id="id-bg-70823"
-                            alt="iay2dwWY_400x400 (1) 11 Image"></div>
-                    </div>
-                    <div class="pos-abs robotic-and-emb-70822" id="id-70822">
-                        <span class="robotic-and-emb-70822-0">ROBOTIC AND EMBEDDED SYSTEM LABORATORY<br /></span><span
-                            class="robotic-and-emb-70822-1">TEKNIK KOMPUTER</span>
-                    </div>
-                </div>
                 <div class="pos-abs group-28-1061138" id="id-1061138">
                     <div class="pos-abs iay2dwwy400x400-1061140" id="id-1061140">
                         <div class="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-1061140"
                             id="id-bg-1061140" alt="iay2dwWY_400x400 (1) 11 Image"></div>
                     </div>
                     <div class="pos-abs robotic-and-emb-1061139" id="id-1061139">
-                        <span class="robotic-and-emb-1061139-0">ROBOTIC AND EMBEDDED SYSTEM LABORATORY<br /></span><span
-                            class="robotic-and-emb-1061139-1">TEKNIK KOMPUTER</span>
+                        <a href="{{ route('home') }}" class="robotic-and-emb-1061139-0">ROBOTIC AND EMBEDDED SYSTEM
+                            LABORATORY<br /></a><a href="{{ route('home') }}" class="robotic-and-emb-1061139-1">TEKNIK
+                            KOMPUTER</a>
                     </div>
                 </div>
                 <div class="pos-abs group-1-1061133" id="id-1061133">
                     <div class="pos-abs profil-1061134" id="id-1061134">
-                        <span class="profil-1061134-0">Profil</span>
+                        <a href="{{ route('profil') }}" class="profil-1061134-0">Profil</a>
                     </div>
                     <div class="pos-abs peminjaman-1061136" id="id-1061136">
-                        <span class="peminjaman-1061136-0">Peminjaman</span>
+                        <a href="{{ route('peminjaman') }}" class="peminjaman-1061136-0">Peminjaman</a>
                     </div>
                     <div class="pos-abs praktikum-1061135" id="id-1061135">
-                        <span class="praktikum-1061135-0">Praktikum</span>
+                        <a href="{{ route('praktikum') }}" class="praktikum-1061135-0">Praktikum</a>
                     </div>
                     <div class="pos-abs informasi-1061137" id="id-1061137">
-                        <span class="informasi-1061137-0">Informasi</span>
+                        <a href="{{ route('informasi') }}" class="informasi-1061137-0">Informasi</a>
                     </div>
                 </div>
             </section>
@@ -318,19 +295,7 @@
             </section>
             <!-- Group 101 -->
             <section class="pos-abs group-10-117183" id="id-117183">
-                <div class="pos-abs rectangle-18-117184" id="id-117184"></div>
-                <div class="pos-abs rectangle-17-117185" id="id-117185">
-                    <div class="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-117185" id="id-bg-117185"
-                        alt="Rectangle 171 Image"></div>
-                </div>
-                <div class="pos-abs robot-fire-figh-4273" id="id-4273">
-                    <span class="robot-fire-figh-4273-0">ROBOT FIRE FIGHTER</span>
-                </div>
-                <div class="pos-abs reslab-project--4274" id="id-4274">
-                    <span class="reslab-project--4274-0">[RESLAB PROJECT :ROBOT FIRE FIGHTER ]Robot fire fighter itu
-                        apa
-                        sih? &nbsp;Buat Sobat reslab yang penasaran, yuk disimak.</span>
-                </div>
+
                 <div class="pos-abs group-73-1204" id="id-1204">
                     <div class="pos-abs rectangle-42-117188" id="id-117188"></div>
                     <div class="pos-abs download-117189" id="id-117189">

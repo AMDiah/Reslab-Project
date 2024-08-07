@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, width=device-width">
 
-
+    <title>peminjaman</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google Sans:wght@400;700&display=swap" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" />
