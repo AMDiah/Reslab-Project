@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AppController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\SensorController;
 
 Route::get('/', function () {
     return view('/home');
@@ -51,3 +52,10 @@ Route::get('/admin/transaksi', [AppController::class, 'index'])->name('transaksi
 Route::post('/admin/transaksi/{id}/approve', [AppController::class, 'approve'])->name('transaksi.approve');
 Route::post('/admin/transaksi/{id}/reject', [AppController::class, 'reject'])->name('transaksi.reject');
 Route::post('/admin/transaksi/{id}/process', [AppController::class, 'process'])->name('transaksi.process');
+
+//baca nilai sensor
+Route::get('/bacasuhu', [SensorController::class, 'bacasuhu'])->name('bacasuhu');
+Route::get('/bacakelembapan', [SensorController::class, 'bacakelembapan'])->name('bacakelembapan');
+
+//simpan nilai sensor
+Route::get('/simpan/{nilaisuhu}/{nilaikelembapan}', [SensorController::class, 'simpansensor'])->name('simpansensor');

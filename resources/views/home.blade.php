@@ -12,6 +12,20 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet" />
+
+    {{-- panggil file jquery untuk proses realtime --}}
+    <script type="text/javascript" src=" {{ 'jquery/jquery.min.js' }}"></script>
+
+    {{-- ajax untuk realtime --}}
+    <script type="text/javascript">
+        $(document).ready(function() {
+            setInterval(function() {
+                $("#suhu").load("{{ url('bacasuhu') }}");
+                $("#kelembapan").load("{{ url('bacakelembapan') }}");
+            }, 1000); //1000 ms
+        });
+    </script>
+
 </head>
 
 <body>
@@ -32,7 +46,7 @@
                 <div class="pos-abs ellipse-1-1817" id="id-1817">
 
                 </div>
-                <div class="pos-abs ellipse-2-1819" id="id-1819">
+                <div>
                     <img src="imageshome/image0.png" class="pos-abs ellipse-2-1819" id="id-1819">
                 </div>
 
@@ -153,7 +167,7 @@
                 <div class="pos-abs suhu-14123" id="id-14123">
                     <span class="suhu-14123-0">Suhu</span>
                 </div>
-                <div class="pos-abs c-43-14124" id="id-14124">
+                <div class="pos-abs c-43-14124" id="kelembapan">
                     <span class="c-43-14124-0">43</span>
                 </div>
                 <div class="pos-abs c-3192" id="id-3192">
@@ -171,18 +185,11 @@
                 <div class="pos-abs kelembapan-3195" id="id-3195">
                     <span class="kelembapan-3195-0">Kelembapan</span>
                 </div>
-                <div class="pos-abs visi--misi1-141244" id="id-141244">
-                    <span class="visi--misi1-141244-0">Visi & Misi</span>
-                </div>
-                <div class="pos-abs c-43-3197" id="id-3197">
+
+                <div class="pos-abs c-43-3197" id="suhu">
                     <span class="c-43-3197-0">43</span>
                 </div>
-                <div class="pos-abs struktur1-141245" id="id-141245">
-                    <span class="struktur1-141245-0">Struktur </span>
-                </div>
-                <div class="pos-abs video1-141246" id="id-141246">
-                    <span class="video1-141246-0">Video</span>
-                </div>
+
             </section>
             <!-- Group 1011 -->
             <section class="pos-abs group-101-3199" id="id-3199">
@@ -202,23 +209,7 @@
                 </div>
             </section>
             <!-- Group 181 -->
-            <section class="pos-abs group-181-57483" id="id-57483">
-                <div class="pos-abs pngtreedigital--2332" id="id-2332">
-                    <div class="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-2332" id="id-bg-2332"
-                        alt="—Pngtree—digital multimeter a on white_15321070 11 Image"></div>
-                </div>
-                <div class="pos-abs rectangle-27-57484" id="id-57484"></div>
-                <div class="pos-abs par-57486" id="id-57486">
-                    <span class="par-57486-0">PAR</span>
-                </div>
-                <div class="pos-abs praktikum-penga-57487" id="id-57487">
-                    <span class="praktikum-penga-57487-0">Praktikum Pengantar Analisis Rangkaian (PAR) bertujuan untuk
-                        Memperkenalkan konsep dasar rangkaian listrik dan komponen
-                        elektronik.<br />Meningkatkan kemampuan mahasiswa dalam
-                        menganalisis dan memecahkan masalah terkait rangkaian
-                        listrik.</span>
-                </div>
-            </section>
+
             <div class="pos-abs c-40700bb7ae9f7a7-14139" id="id-14139">
                 <div class="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-14139" id="id-bg-14139"
                     alt="40700bb7ae9f7a78b2d52c35bdcb9922 11 Image"></div>
@@ -245,43 +236,7 @@
                     <span class="learn-more-4297-0">Learn more</span>
                 </div>
             </section>
-            <!-- Group 191 -->
-            <section class="pos-abs group-191-57504" id="id-57504">
-                <div class="pos-abs rectangle-27-57505" id="id-57505"></div>
-                <div class="pos-abs rl-1-57485" id="id-57485">
-                    <div class="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-57485" id="id-bg-57485"
-                        alt="rl 11 Image"></div>
-                </div>
-                <div class="pos-abs rangkaian-listr-57507" id="id-57507">
-                    <span class="rangkaian-listr-57507-0">RANGKAIAN LISTRIK</span>
-                </div>
-                <div class="pos-abs praktikum-rangk-57508" id="id-57508">
-                    <span class="praktikum-rangk-57508-0">Praktikum rangkaian listrik bertujuan untuk memberikan
-                        pemahaman
-                        dasar tentang konsep dan prinsip-prinsip fundamental kelistrikan,
-                        serta kemampuan untuk merakit dan menguji berbagai rangkaian
-                        listrik sederhana.</span>
-                </div>
-            </section>
-            <!-- Group 201 -->
-            <section class="pos-abs group-201-57511" id="id-57511">
-                <div class="pos-abs rectangle-27-57512" id="id-57512"></div>
-                <div class="pos-abs sister-1-57509" id="id-57509">
-                    <div class="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-57509" id="id-bg-57509"
-                        alt="sister 11 Image"></div>
-                    <img src="image/image1.png">
-                </div>
-                <div class="pos-abs sistem-tertanam-57514" id="id-57514">
-                    <span class="sistem-tertanam-57514-0">SISTEM TERTANAM</span>
-                </div>
-                <div class="pos-abs praktikum-siste-57515" id="id-57515">
-                    <span class="praktikum-siste-57515-0">Praktikum Sistem Tertanam adalah sesi pelatihan yang
-                        dirancang
-                        untuk memberikan mahasiswa pemahaman dan pengalaman langsung dalam
-                        merancang, mengembangkan, dan mengimplementasikan sistem
-                        tertanam.</span>
-                </div>
-            </section>
+
             <!-- Group 61 -->
             <section class="pos-abs group-6-4259" id="id-4259">
                 <div class="pos-abs group-2-2814" id="id-2814">
